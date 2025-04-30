@@ -5,7 +5,7 @@ from stable_baselines3 import DQN
 env = gym.make("Acrobot-v1", render_mode="human")
 
 # Load the best trained model
-model = DQN.load("../models/dqn_acrobot")
+model = DQN.load("models/dqn_acrobot")
 
 obs, _ = env.reset()
 
