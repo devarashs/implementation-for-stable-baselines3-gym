@@ -2,7 +2,7 @@ import gymnasium as gym
 from stable_baselines3 import SAC
 
 # Load environment with render mode
-env = gym.make("MountainCar-v0", render_mode="human")
+env = gym.make("MountainCarContinuous-v0", render_mode="human")
 
 # Load trained DQN model
 model = SAC.load("models/sac_mountaincar")
