@@ -7,7 +7,7 @@ import os
 # Directories
 log_dir = "mountaincar-scripts/logs"
 models_dir = "models"
-best_model_dir = f"{models_dir}/best_dqn"
+best_model_dir = f"{models_dir}/mountaincar/best"
 eval_log_dir = f"{log_dir}/eval"
 
 # Create necessary directories
