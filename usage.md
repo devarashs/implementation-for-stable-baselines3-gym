@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## 3. Train Pipelines
 
-### 3.1 Train with DQN
+### 3.1 Acrobot with DQN
 
 ```bash
 python -m acrobot-scripts.train
@@ -45,7 +45,7 @@ python -m mountaincar-continuous-scripts.train
 
 ## 4. Play Pipelines
 
-### 4.1 Play with DQN
+### 4.1 Acrobot with DQN
 
 ```bash
 python -m acrobot-scripts.play
