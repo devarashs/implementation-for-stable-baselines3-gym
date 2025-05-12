@@ -19,52 +19,64 @@ pip install -r requirements.txt
 
 ## 3. Train Pipelines
 
-### 3.1 Acrobot with DQN
+### 3.1 Acrobot-v1 with DQN
 
 ```bash
 python -m acrobot-scripts.train
 ```
 
-### 3.2 CartPole with PPO
+### 3.2 CartPole-v1 with PPO
 
 ```bash
 python -m cartpole-scripts.train
 ```
 
-### 3.3 MountainCar with DQN
+### 3.3 MountainCar-v0 with DQN
 
 ```bash
 python -m mountaincar-scripts.train
 ```
 
-### 3.4 MountainCar Continuous with SAC
+### 3.4 MountainCar-Continuous-v0 with SAC
 
 ```bash
 python -m mountaincar-continuous-scripts.train
 ```
 
+### 3.5 LunarLander-v3 with DQN
+
+```bash
+python -m lunarlander-scripts.train
+```
+
 ## 4. Play Pipelines
 
-### 4.1 Acrobot with DQN
+### 4.1 Acrobot-v1 with DQN
 
 ```bash
 python -m acrobot-scripts.play
 ```
 
-### 4.2 CartPole with PPO
+### 4.2 CartPole-v1 with PPO
 
 ```bash
 python -m cartpole-scripts.play
 ```
 
-### 4.3 MountainCar with DQN
+### 4.3 MountainCar-v0 with DQN
 
 ```bash
 python -m mountaincar-scripts.play
 ```
 
-### 4.4 MountainCar Continuous with SAC
+### 4.4 MountainCar-Continuous-v0 with SAC
 
 ```bash
 python -m mountaincar-continuous-scripts.play
+```
+
+### 4.5 LunarLander-v3 with DQN
+
+```bash
+python -m lunarlander-scripts.play
 ```
