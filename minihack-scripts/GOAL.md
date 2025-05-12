@@ -1,13 +1,11 @@
 ---
-
 ## 🧠 `GOAL.md` — MiniHack-Room-5x5-v0 Agent Objective
 
 ### 🎮 Environment Overview: `MiniHack-Room-5x5-v0`
 
-**MiniHack** is a reinforcement learning environment built on top of the classic rogue-like game *NetHack*. Unlike simple Gym environments, MiniHack introduces elements like procedural generation, partial observability, inventory management, and symbolic reasoning.
+MiniHack is a reinforcement learning environment built on top of the classic rogue-like game *NetHack*. Unlike simple Gym environments, MiniHack introduces elements like procedural generation, partial observability, inventory management, and symbolic reasoning.
 
 The `MiniHack-Room-5x5-v0` environment is one of the simplest MiniHack maps and is used for introductory experimentation. It provides a compact, deterministic 5x5 room grid.
-
 ---
 
 ### 🎯 Agent's Objective
