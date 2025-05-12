@@ -24,3 +24,4 @@ This project includes implementations of the following RL algorithms and environ
 - **MountainCarContinuous-v0:** Solved using **Soft Actor-Critic (SAC)**. SAC is an off-policy actor-critic algorithm that aims to maximize both reward and entropy.
 - **Acrobot-v1:** Solved using **Deep Q-Network (DQN)**. This demonstrates the application of DQN to a more complex control problem.
 - **LunarLander-v3:** Solved using **Deep Q-Network (DQN)**. This example shows how DQN can be applied to a classic control problem with continuous state space and discrete actions.
+- **MiniHack-Room-5x5-v0:** Solved using **Proximal Policy Optimization (PPO)**. This environment is a grid-based game that requires navigation and decision-making skills.

@@ -49,6 +49,12 @@ python -m mountaincar-continuous-scripts.train
 python -m lunarlander-scripts.train
 ```
 
+### 3.6 MiniHack-Room-5x5-v0 with PPO
+
+```bash
+python -m minihack-scripts.train
+```
+
 ## 4. Play Pipelines
 
 ### 4.1 Acrobot-v1 with DQN
@@ -79,4 +85,10 @@ python -m mountaincar-continuous-scripts.play
 
 ```bash
 python -m lunarlander-scripts.play
+```
+
+### 4.6 MiniHack-Room-5x5-v0 with PPO
+
+```bash
+python -m minihack-scripts.play
 ```
