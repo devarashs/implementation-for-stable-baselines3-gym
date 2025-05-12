@@ -19,7 +19,7 @@ os.makedirs(eval_log_dir, exist_ok=True)
 class ShapedRewardWrapper(gym.RewardWrapper):
     def reward(self, reward):
         # Enhanced reward shaping to overcome local minima
-        pos, vel = self.env.state
+        pos, vel = self.env.unwrapped.state
         position_reward = 0.1 * (pos + 1.2)  # Encourages moving right
         velocity_reward = 15 * abs(vel)      # Increased velocity reward
         return reward + position_reward + velocity_reward
