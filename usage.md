@@ -92,3 +92,10 @@ python -m lunarlander-scripts.play
 ```bash
 python -m minihack-scripts.play
 ```
+
+## 5. To Open TensorBoard After Training
+
+```bash
+cd whatever-script-you-want-to-open
+tensorboard --logdir ./logs
+```
